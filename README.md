@@ -26,3 +26,15 @@ and performing the ‘corr’ filtering with the kernel. We manually adjusted ou
 of your Ideal threshold value i.e. the max value .Then comparing with the max value obtained after the
 ‘corr’ filtering by the kernel and each extracted letter.
 We were almost able to identify the correct letter. The result can be seen it in the output itself.
+
+SAMPLE IMAGE
+![text_train](https://user-images.githubusercontent.com/23450113/50497200-e7cc9680-0a35-11e9-9ddb-4cf798e1ec53.jpg)
+
+EXTRACT THE KERNEL FROM THE INPUT IMAGE
+![cropped](https://user-images.githubusercontent.com/23450113/50497202-ea2ef080-0a35-11e9-9a03-12dfbb128a34.jpg)
+
+PERFORM DILATION TO FILL THE GAPS TO MAXIMISE THE MATCH
+![dilated_image](https://user-images.githubusercontent.com/23450113/50497204-ebf8b400-0a35-11e9-98a2-ef35ef78893b.jpg)
+
+FINAL OUTPUT
+![output](https://user-images.githubusercontent.com/23450113/50497205-edc27780-0a35-11e9-9d35-7de0ae6117a0.jpg)
